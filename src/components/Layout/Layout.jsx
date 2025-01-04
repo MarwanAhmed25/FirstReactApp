@@ -22,13 +22,13 @@ export default function Layout(){
            <Outlet ></Outlet>
 
 
-          <section className="home-about p-5 d-flex justify-content-around text-center">
-            <section>
-                <h2>lfnvdkfj</h2>
-                <p className="m-0">Lorem ipsum dolor sit amet.</p>
+          <section className="home-about p-5 row text-center">
+            <section className='col-12 col-md-6 col-lg-4'>
+                <h2>LOCATION</h2>
+                <p className="m-0">2215 John Daniel Drive Clark, MO 65243</p>
             </section>
-            <section>
-                <h2>lfnvdkfj</h2>
+            <section className='col-12 col-md-6 col-lg-4'>
+                <h2>AROUND THE WEB</h2>
                 <p className="m-0">
                     <span className="fa-stack" style={ {verticalAlign:'top'} }>
                         <i className="fa-regular fa-circle fa-stack-2x"></i>
@@ -48,9 +48,9 @@ export default function Layout(){
                       </span>
                 </p>
             </section>
-            <section>
-                <h2>lfnvdkfj</h2>
-                <p className="m-0">Lorem ipsum dolor sit amet.</p>
+            <section className='col-12 col-md-6 col-lg-4'>
+                <h2>ABOUT FREELANCER</h2>
+                <p className="m-0">Freelance is a free to use, licensed Bootstrap theme created by Marwan Ahmed</p>
             </section>
           </section>
          
