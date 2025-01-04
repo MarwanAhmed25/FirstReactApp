@@ -1,0 +1,71 @@
+*, *::after, *::after{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+ 
+  color: white;
+}
+
+.hero{
+  background-color: #1ABC9C;
+}
+
+.portoflio-h2{
+  color: #1A252F;
+  font-size: 40px;
+  text-transform: capitalize;
+}
+
+nav.navbar{
+  background-color: #2C3E50;
+}
+
+footer{
+  background-color: #1A252F;
+}
+
+.home-about{
+  background-color: #2C3E50;
+}
+
+div.inner-icon{
+  position: absolute;
+  background-color: #1ABC9C;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  
+}
+
+.inner:hover .inner-icon{
+  cursor: pointer;
+  z-index: 99;
+  opacity: .9;
+  transition: z-index 1s;
+}
+
+.image-container{
+  font-size: 0;
+}
+
+.navbar .logo{
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.navbar .d-flex a{
+  font-size: 20px;
+}
+
+
+.navbar .d-flex a.active{
+  background-color: #1ABC9C;
+}
+
+input::placeholder{
+  color: gray;
+}
